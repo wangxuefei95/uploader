@@ -1,0 +1,13 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "description": "a file uploader app",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "log4js": "^6.3.0",
+    "pug": "^3.0.2"
+  }
+}

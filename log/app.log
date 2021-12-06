@@ -1,0 +1,75 @@
+[2021-12-02T17:11:29.479] [INFO] startup - uploader app listening on port  3000  with PID  41030
+[2021-12-02T17:40:04.294] [INFO] startup - uploader app listening on port  3000  with PID  41983
+[2021-12-02T18:04:07.391] [INFO] startup - uploader app listening on port  3000  with PID  43935
+[2021-12-02T18:08:01.873] [INFO] startup - uploader app listening on port  3000  with PID  44099
+[2021-12-02T18:16:30.811] [INFO] startup - uploader app listening on port  3000  with PID  45152
+[2021-12-02T18:17:06.466] [INFO] startup - uploader app listening on port  3000  with PID  45233
+[2021-12-02T18:17:07.363] [ERROR] default - 移动文件位置并重命名失败, 错误信息如下
+ [Error: ENOENT: no such file or directory, rename '/Users/wangxuefei/Documents/code/nodejs/uploader/temp/tlVvv_0rFLV0RucA7nKxEmHA.jpg' -> '~/static/风景1.jpg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '/Users/wangxuefei/Documents/code/nodejs/uploader/temp/tlVvv_0rFLV0RucA7nKxEmHA.jpg',
+  dest: '~/static/风景1.jpg'
+}
+[2021-12-02T18:17:07.364] [ERROR] default - 移动文件位置并重命名失败, 错误信息如下
+ [Error: ENOENT: no such file or directory, rename '/Users/wangxuefei/Documents/code/nodejs/uploader/temp/adITdkryRdsxFDmSQYojprSl.jpeg' -> '~/static/1000.jpeg'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '/Users/wangxuefei/Documents/code/nodejs/uploader/temp/adITdkryRdsxFDmSQYojprSl.jpeg',
+  dest: '~/static/1000.jpeg'
+}
+[2021-12-02T18:26:07.349] [INFO] startup - uploader app listening on port  3000  with PID  46330
+[2021-12-02T18:26:21.350] [INFO] startup - uploader app listening on port  3000  with PID  46374
+[2021-12-02T18:26:36.763] [INFO] startup - uploader app listening on port  3000  with PID  46413
+[2021-12-02T18:27:26.009] [INFO] startup - uploader app listening on port  3000  with PID  46475
+[2021-12-02T18:37:52.576] [INFO] startup - uploader app listening on port  3000  with PID  47082
+[2021-12-02T18:39:21.070] [INFO] startup - uploader app listening on port  3000  with PID  47416
+[2021-12-02T18:39:21.928] [INFO] default - 文件拷贝成功
+[2021-12-02T18:39:21.935] [INFO] default - 文件拷贝成功
+[2021-12-02T20:35:33.052] [INFO] startup - uploader app listening on port  3000  with PID  50495
+[2021-12-02T20:50:07.516] [INFO] startup - uploader app listening on port  3000  with PID  51767
+[2021-12-06T14:34:30.493] [INFO] startup - uploader app listening on port  3000  with PID  16775
+[2021-12-06T14:37:23.761] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/EQj30klbK2f3vhDC640kuGIS.jpeg
+[2021-12-06T14:37:23.761] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/EQj30klbK2f3vhDC640kuGIS.jpeg -> /Users/wangxuefei/static/1000.jpeg
+[2021-12-06T14:37:23.764] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Ux_lijtig2VxvgADMTeo5phN.gif
+[2021-12-06T14:37:23.764] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Ux_lijtig2VxvgADMTeo5phN.gif -> /Users/wangxuefei/static/46bc1ee77c81191a951b8f9b6bb59ec0.gif
+[2021-12-06T14:37:23.765] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/_DUdP_CaXc03ZySK7sNNXL1v.jpg
+[2021-12-06T14:37:23.765] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/_DUdP_CaXc03ZySK7sNNXL1v.jpg -> /Users/wangxuefei/static/风景1.jpg
+[2021-12-06T14:37:23.799] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/QKol2t-YFXGICx3S4UhksJyp.jpeg
+[2021-12-06T14:37:23.799] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/QKol2t-YFXGICx3S4UhksJyp.jpeg -> /Users/wangxuefei/static/1000.jpeg
+[2021-12-06T14:37:23.802] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/9MG84bLHQsnWKECuDwjTlAPM.gif
+[2021-12-06T14:37:23.802] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/9MG84bLHQsnWKECuDwjTlAPM.gif -> /Users/wangxuefei/static/46bc1ee77c81191a951b8f9b6bb59ec0.gif
+[2021-12-06T14:37:23.804] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/r_fXNYcLEI3dWZIxgg_GgD8j.jpg
+[2021-12-06T14:37:23.804] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/r_fXNYcLEI3dWZIxgg_GgD8j.jpg -> /Users/wangxuefei/static/风景1.jpg
+[2021-12-06T14:37:23.831] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ypWAfbev4jRSWFzAIsb4-reA.jpeg
+[2021-12-06T14:37:23.831] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ypWAfbev4jRSWFzAIsb4-reA.jpeg -> /Users/wangxuefei/static/1000.jpeg
+[2021-12-06T14:37:23.833] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Yrcj624OoShwv5dXYfOtPZL9.gif
+[2021-12-06T14:37:23.833] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Yrcj624OoShwv5dXYfOtPZL9.gif -> /Users/wangxuefei/static/46bc1ee77c81191a951b8f9b6bb59ec0.gif
+[2021-12-06T14:37:23.834] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Uirv2cEXKCy4fgV6I0xlPRiJ.jpg
+[2021-12-06T14:37:23.835] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Uirv2cEXKCy4fgV6I0xlPRiJ.jpg -> /Users/wangxuefei/static/风景1.jpg
+[2021-12-06T14:44:14.835] [INFO] startup - uploader app listening on port  3000  with PID  18351
+[2021-12-06T14:46:49.792] [INFO] startup - uploader app listening on port  3000  with PID  18527
+[2021-12-06T14:53:35.217] [INFO] startup - uploader app listening on port  3000  with PID  19195
+[2021-12-06T14:54:05.853] [INFO] startup - uploader app listening on port  3000  with PID  19245
+[2021-12-06T14:54:22.136] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/bDNQ4jS81__RosYYqY1jlUvq.png
+[2021-12-06T14:54:22.137] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/bDNQ4jS81__RosYYqY1jlUvq.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyfhf7lj30ev0ce75d.png
+[2021-12-06T14:54:22.137] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/e0rDsQzC3OHLDJwEpunrJ6Hf.png
+[2021-12-06T14:54:22.137] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/e0rDsQzC3OHLDJwEpunrJ6Hf.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyf5y5wj30h50dzwg2.png
+[2021-12-06T14:54:22.138] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ZKtSHCa-fh4ofoEKEqty6x1z.png
+[2021-12-06T14:54:22.139] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ZKtSHCa-fh4ofoEKEqty6x1z.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyegzsnj30kx0dzjtk.png
+[2021-12-06T14:55:13.725] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/6gdWGvUA-qOJLgAB5CSI0rhD.png
+[2021-12-06T14:55:13.725] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/6gdWGvUA-qOJLgAB5CSI0rhD.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyfhf7lj30ev0ce75d.png
+[2021-12-06T14:55:13.726] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/QahEKMRhjlft5hOUm29KBY1c.png
+[2021-12-06T14:55:13.726] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/QahEKMRhjlft5hOUm29KBY1c.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyf5y5wj30h50dzwg2.png
+[2021-12-06T14:55:13.727] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Qp_JV_hCTirKdwp1yPcyL7XQ.png
+[2021-12-06T14:55:13.728] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/Qp_JV_hCTirKdwp1yPcyL7XQ.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyegzsnj30kx0dzjtk.png
+[2021-12-06T14:55:22.877] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/uY3fIVDH-zNJWVmxhJKjKyhP.mp4
+[2021-12-06T14:55:22.877] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/uY3fIVDH-zNJWVmxhJKjKyhP.mp4 -> /Users/wangxuefei/static/lufei.mp4
+[2021-12-06T15:10:38.995] [INFO] startup - uploader app listening on port  3000  with PID  19779
+[2021-12-06T15:11:10.100] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/vH5BPg7C2r_n8IDbgxfriuWh.png
+[2021-12-06T15:11:10.100] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/vH5BPg7C2r_n8IDbgxfriuWh.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxydbf4lj30to0k041i.png
+[2021-12-06T15:11:10.102] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/8q4afIhx1j51C-SismEqcPkd.png
+[2021-12-06T15:11:10.103] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/8q4afIhx1j51C-SismEqcPkd.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxycvl0tj31ho0u0q7w.png
+[2021-12-06T15:11:44.880] [INFO] startup - uploader app listening on port  3000  with PID  19878

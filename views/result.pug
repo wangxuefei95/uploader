@@ -1,0 +1,9 @@
+extends layout
+block body
+  if (success) 
+    p(style="color:green;") #{message}
+  else 
+    p(style="color:red;") #{message}
+
+  p
+    a(href="/") 返回首页 

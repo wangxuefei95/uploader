@@ -1,0 +1,9 @@
+extends layout
+block body
+  form(action="/upload", method="post", enctype="multipart/form-data")
+    fieldset 
+      legend 多文件上传
+      p 所支持的文件类型 未限制
+      input(type="file", name="files" multiple)
+      p 
+        button(type="submit") 上传
