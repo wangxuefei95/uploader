@@ -14,6 +14,7 @@ router.get('/', function(req, res) {
 })
 
 router.post('/', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
 
   const form = new multiparty.Form({
     encoding: 'utf-8',
@@ -22,7 +23,7 @@ router.post('/', function(req, res, next) {
   form.parse(req, (err, fields, files) => {
     if (err) {
       logger.error('解析文件发生错误，信息如下\n', err)
-      res.json({ code: 500, msg: '文件解析错误' })
+      return res.json({ code: 500, msg: '文件解析错误' })
     }
 
     Promise.all(files.files.map(file => {
