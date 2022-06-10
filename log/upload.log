@@ -2,3 +2,53 @@
 [2021-12-06T15:11:53.066] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/69KAZGLSvZUJT2a_v-SJpCDi.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyf5y5wj30h50dzwg2.png
 [2021-12-06T15:11:53.067] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ax1uaK7Uc3SNbEnaaE13ClDH.png
 [2021-12-06T15:11:53.067] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/ax1uaK7Uc3SNbEnaaE13ClDH.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxyegzsnj30kx0dzjtk.png
+[2021-12-15T11:06:33.248] [ERROR] upload - 解析文件发生错误，信息如下
+ { BadRequestError: content-type missing boundary
+    at Form.parse (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/_multiparty@4.2.2@multiparty/index.js:181:21)
+    at /Users/wangxuefei/Documents/code/nodejs/uploader/routes/upload.js:23:8
+    at Layer.handle [as handle_request] (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:174:3) message: 'content-type missing boundary' }
+[2021-12-15T11:07:31.232] [ERROR] upload - 解析文件发生错误，信息如下
+ { BadRequestError: content-type missing boundary
+    at Form.parse (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/_multiparty@4.2.2@multiparty/index.js:181:21)
+    at /Users/wangxuefei/Documents/code/nodejs/uploader/routes/upload.js:23:8
+    at Layer.handle [as handle_request] (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/express/lib/router/index.js:174:3) message: 'content-type missing boundary' }
+[2021-12-15T11:10:02.989] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/IAX3w0Mc1rUnSc2yCnCg_SPH.xlsx
+[2021-12-15T11:10:02.989] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/IAX3w0Mc1rUnSc2yCnCg_SPH.xlsx -> /Users/wangxuefei/static/员工个人基本信息-20211027.xlsx
+[2021-12-15T11:11:05.403] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/4okBBhT7jQGsyMk2D8K_bIEd.pdf
+[2021-12-15T11:11:05.403] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/4okBBhT7jQGsyMk2D8K_bIEd.pdf -> /Users/wangxuefei/static/了不起的Node  js  将JavaScript进行到底  PDF电子书下载 带书签目录 完整版.pdf
+[2021-12-15T15:19:40.440] [ERROR] upload - 解析文件发生错误，信息如下
+ Error: Request aborted
+    at IncomingMessage.onReqAborted (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/_multiparty@4.2.2@multiparty/index.js:195:17)
+    at IncomingMessage.emit (events.js:314:20)
+    at abortIncoming (_http_server.js:550:9)
+    at socketOnClose (_http_server.js:543:3)
+    at Socket.emit (events.js:326:22)
+    at TCP.<anonymous> (net.js:672:12)
+[2021-12-15T15:19:40.446] [ERROR] upload - 解析文件发生错误，信息如下
+ Error: Request aborted
+    at IncomingMessage.onReqAborted (/Users/wangxuefei/Documents/code/nodejs/uploader/node_modules/_multiparty@4.2.2@multiparty/index.js:195:17)
+    at IncomingMessage.emit (events.js:314:20)
+    at abortIncoming (_http_server.js:550:9)
+    at socketOnClose (_http_server.js:543:3)
+    at Socket.emit (events.js:326:22)
+    at TCP.<anonymous> (net.js:672:12)
+[2021-12-15T15:20:43.461] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/eYcD3sb4ZQoj6rECH_fsBJg9.pdf
+[2021-12-15T15:20:43.461] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/eYcD3sb4ZQoj6rECH_fsBJg9.pdf -> /Users/wangxuefei/static/了不起的Node  js  将JavaScript进行到底  PDF电子书下载 带书签目录 完整版.pdf
+[2021-12-15T15:26:42.719] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/lur6Kum9VoO3t9YjUTBE89D7.pdf
+[2021-12-15T15:26:42.720] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/lur6Kum9VoO3t9YjUTBE89D7.pdf -> /Users/wangxuefei/static/了不起的Node  js  将JavaScript进行到底  PDF电子书下载 带书签目录 完整版.pdf
+[2021-12-15T15:28:41.224] [INFO] upload - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/2pFON5t4qBXJAakLkoZFzkQf.mp4
+[2021-12-15T15:28:41.224] [INFO] upload - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/2pFON5t4qBXJAakLkoZFzkQf.mp4 -> /Users/wangxuefei/static/lufei.mp4

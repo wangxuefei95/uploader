@@ -73,3 +73,7 @@
 [2021-12-06T15:11:10.102] [INFO] default - 文件读取完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/8q4afIhx1j51C-SismEqcPkd.png
 [2021-12-06T15:11:10.103] [INFO] default - 文件写入完成 /var/folders/x4/prl_c3kj7dg_nkqfkqjq93x40000gn/T/8q4afIhx1j51C-SismEqcPkd.png -> /Users/wangxuefei/static/007Wnlt3gy1gayxycvl0tj31ho0u0q7w.png
 [2021-12-06T15:11:44.880] [INFO] startup - uploader app listening on port  3000  with PID  19878
+[2021-12-15T10:52:21.983] [INFO] startup - uploader app listening on port  3000  with PID  76746
+[2021-12-15T11:02:18.932] [INFO] startup - uploader app listening on port  3000  with PID  77495
+[2021-12-15T11:06:29.295] [INFO] startup - uploader app listening on port  3000  with PID  77785
+[2021-12-15T15:15:32.487] [INFO] startup - uploader app listening on port  3000  with PID  83898
